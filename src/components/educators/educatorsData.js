@@ -3,6 +3,7 @@ import {
   striver,
   adityaVarma,
   mike,
+  pepcoding,
 } from "../../assets/educatorsImg";
 
 const educatorsData = [
@@ -10,49 +11,61 @@ const educatorsData = [
     id: 1,
     name: "Raj Vikramaditya",
     socialMedia: {
-      youtube: "https://twitter.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
+      youtube: "https://www.youtube.com/@takeUforward",
+      linkedin: "https://www.linkedin.com/in/rajstriver/",
+      website: "https://takeuforward.org/",
     },
-    image: striver, // Placeholder image URL
+    image: striver,
     description:
-      "Passionate about algorithms and data structures. Software engineer with 5+ years of experience.",
+      "Widely famous for intuitive problem-solving and language-independent explanations.",
   },
   {
-    id: 1,
+    id: 2,
     name: "Love Babbar",
     socialMedia: {
-      youtube: "https://twitter.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
+      youtube: "https://www.youtube.com/@LoveBabbar",
+      linkedin: "https://www.linkedin.com/in/love-babbar-38ab2887/",
+      github: "https://github.com/loveBabbar",
     },
-    image: loveBabbar, // Placeholder image URL
+    image: loveBabbar,
     description:
-      "Passionate about algorithms and data structures. Software engineer with 5+ years of experience.",
+      "One of the finest DSA educators on YouTube, specifically in DSA with C++. ",
   },
   {
-    id: 1,
-    name: "Aditya Varma",
-    socialMedia: {
-      youtube: "https://twitter.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
-    },
-    image: adityaVarma, // Placeholder image URL
-    description:
-      "Passionate about algorithms and data structures. Software engineer with 5+ years of experience.",
-  },
-  {
-    id: 1,
+    id: 3,
     name: "Mazar",
     socialMedia: {
-      youtube: "https://twitter.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
+      youtube: "https://www.youtube.com/@codestorywithMIK",
+      linkedin: "https://www.linkedin.com/in/mazhar-imam-khan-95a34ab3/",
+      github: "https://github.com/MAZHARMIK/Interview_DS_Algo",
     },
-    image: mike, // Placeholder image URL
+    image: mike,
     description:
-      "Passionate about algorithms and data structures. Software engineer with 5+ years of experience.",
+      "Explaining challenging LeetCode problems with proper intuition. He writes stories, not just code.",
+  },
+  {
+    id: 4,
+    name: "Aditya Varma",
+    socialMedia: {
+      youtube: "https://www.youtube.com/@TheAdityaVerma",
+      linkedin: "https://www.linkedin.com/in/adityaverma1999/",
+      github: "https://github.com/skjha1/Aditya-verma-youtube-playlist-code",
+    },
+    image: adityaVarma,
+    description:
+      "Learn DSA by recognizing common patterns from question to question with a desi approach.",
+  },
+  {
+    id: 5,
+    name: "Sumeet Malik",
+    socialMedia: {
+      youtube: "https://www.youtube.com/@Pepcoding",
+      linkedin: "https://www.linkedin.com/in/sumeet-malik-ab650410/",
+      website: "https://www.pepcoding.com/",
+    },
+    image: pepcoding,
+    description:
+      "One of the best educators to learn DSA in Java with in-depth dry runs.",
   },
 
   // Add more educators as needed

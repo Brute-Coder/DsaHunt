@@ -7,7 +7,10 @@ import "react-vertical-timeline-component/style.min.css";
 function Roadmap() {
   return (
     <div className="bg-gradient-to-tl from-slate-800 to-slate-700">
-      <h1 className=" text-5xl text-center py-3 font-bold">Start Here</h1>
+      <h1 className=" text-5xl text-center py-3 font-bold">
+        {" "}
+        <span className=" text-green-400">Start</span> Here
+      </h1>
       <VerticalTimeline>
         <RoadmapEl
           heading="Language Selection"

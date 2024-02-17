@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logoDSA.ico";
+import logo from "../../assets/logoDSA.png";
 import { NavLink } from "react-router-dom";
 function Logo() {
   return (

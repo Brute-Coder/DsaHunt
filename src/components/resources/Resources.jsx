@@ -18,7 +18,7 @@ function Resources() {
   return (
     <div className="bg-gradient-to-tl from-slate-800 to-slate-700">
       <div className="container mx-auto mt-8 ">
-        <CardContainer containerTitle="SDE Sheets To Follow">
+        <CardContainer containerTitle="<span style='color: #4ade80 '> SDE Sheets </span>To Follow">
           <Card
             imageUrl={striver}
             imageAlt="image of raj vikramaditya"
@@ -41,7 +41,7 @@ function Resources() {
             buttonUrl="https://neetcode.io/practice"
           />
         </CardContainer>
-        <CardContainer containerTitle="Platforms For Practice">
+        <CardContainer containerTitle="<span style='color: #4ade80 '> Platforms </span>For Practice">
           <Card
             imageUrl={leetcode}
             imageAlt="leetcode logo"
@@ -75,7 +75,7 @@ function Resources() {
             buttonText="Practice"
           />
         </CardContainer>
-        <CardContainer containerTitle="Playlists To Binge">
+        <CardContainer containerTitle="<span style='color: #4ade80 '> Playlists </span>To Binge">
           <Card
             imageUrl={recursion}
             imageAlt="ai generated cp art"

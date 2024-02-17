@@ -41,9 +41,9 @@ function Navbar() {
           </ul>
         </div>
         <div className=" hidden sm:block ">
-          <a href="https://github.com/Brute-Coder" target="_blank">
+          <a href="https://github.com/Brute-Coder/DsaHunt" target="_blank">
             <button className=" bg-green-500 text-white px-5 py-2 rounded-sm hover:bg-green-700 cursor-pointer mr-4 hover:scale-105">
-              GitHub
+              Contribute
             </button>
           </a>
         </div>

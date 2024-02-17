@@ -16,9 +16,14 @@ function Home() {
                 <Herotext />
               </h1>
               <p className=" max-w-xl text-center text-white lg:text-left lg:max-w-md">
-                Escape From The Tutorial Hell , learn and groww
+                An <span className=" text-green-400">open-source</span> platform
+                where valuable DSA learning resources are collaboratively
+                compiled{" "}
+                <span className=" text-green-400">
+                  by the community for the community.
+                </span>
               </p>
-              <div className=" lg:justify-start flex justify-center mt-14 ">
+              <div className=" lg:justify-start flex justify-center mt-7 ">
                 <NavLink to="/roadmap">
                   <button
                     type="button"
