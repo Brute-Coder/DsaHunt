@@ -9,14 +9,14 @@ function Navbar() {
     setIsOpen((prev) => !prev);
   }
   return (
-    <header className=" sticky top-0 z-30 ">
-      <nav className=" bg-gray-600 flex justify-between items-center w-full">
+    <header className="sticky top-0 z-30 ">
+      <nav className="flex items-center justify-between w-full bg-gray-600 ">
         <Logo />
-        <div className=" hidden sm:block">
+        <div className="hidden sm:block">
           <ul className=" flex items-center gap-[4vw]">
             <li>
               <NavLink
-                className=" text-white text-m hover:animate-pulse"
+                className="text-white text-m hover:animate-pulse"
                 to="/roadmap"
               >
                 Roadmap
@@ -24,7 +24,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                className=" text-m text-white hover:animate-pulse"
+                className="text-white text-m hover:animate-pulse"
                 to="/resources"
               >
                 Resources
@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                className=" text-white text-m hover:animate-pulse"
+                className="text-white text-m hover:animate-pulse"
                 to="/educators"
               >
                 Educators
@@ -40,28 +40,32 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className=" hidden sm:block ">
+        <div className="hidden gap-2 md:flex md:p-3 sm:block">
           <a href="https://github.com/Brute-Coder/DsaHunt" target="_blank">
-            <button className=" bg-green-500 text-white px-5 py-2 rounded-sm hover:bg-green-700 cursor-pointer mr-4 hover:scale-105">
+            <button className="px-5 py-2 text-white bg-green-500 rounded-sm cursor-pointer hover:bg-green-700 hover:scale-105">
+             Join Us
+            </button>
+          </a>
+          <a href="https://github.com/Brute-Coder/DsaHunt" target="_blank">
+            <button className="px-5 py-2 text-white bg-green-500 rounded-sm cursor-pointer hover:bg-green-700 hover:scale-105">
               Contribute
             </button>
           </a>
         </div>
         <div className="flex md:hidden lg:hidden">
           <button
-            className=" bg-green-500 text-white px-5 py-2 rounded-sm hover:bg-green-700 cursor-pointer mr-4"
+            className="px-5 py-2 mr-4 text-white bg-green-500 rounded-sm cursor-pointer hover:bg-green-700"
             onClick={toggleNavbar}
           >
             {isOpen ? <FaChevronUp /> : <FaBars />}
           </button>
           {isOpen && (
             <ul
-              className="flex basis-full items-center flex-col absolute top-full 
-            left-0 bg-gray-600 w-full gap-2"
+              className="absolute left-0 flex flex-col items-center w-full gap-2 bg-gray-600 basis-full top-full"
             >
               <li>
                 <NavLink
-                  className="text-white w-full text-m hover:animate-pulse py-2 px-4"
+                  className="w-full px-4 py-2 text-white text-m hover:animate-pulse"
                   to="/roadmap"
                   onClick={toggleNavbar}
                 >
@@ -70,7 +74,7 @@ function Navbar() {
               </li>
               <li>
                 <NavLink
-                  className="text-white text-m hover:animate-pulse py-2 px-4"
+                  className="px-4 py-2 text-white text-m hover:animate-pulse"
                   to="/resources"
                   onClick={toggleNavbar}
                 >
@@ -79,7 +83,7 @@ function Navbar() {
               </li>
               <li>
                 <NavLink
-                  className="text-white text-m hover:animate-pulse py-2 px-4"
+                  className="px-4 py-2 text-white text-m hover:animate-pulse"
                   to="/educators"
                   onClick={toggleNavbar}
                 >
