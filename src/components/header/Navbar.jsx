@@ -41,7 +41,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="hidden gap-2 md:flex md:p-3 sm:block">
-          <a href="https://github.com/Brute-Coder/DsaHunt" target="_blank">
+          <a href="https://chat.whatsapp.com/C9ue5s9Km2T1YLPFhT6JR1" target="_blank">
             <button className="px-5 py-2 text-white bg-green-500 rounded-sm cursor-pointer hover:bg-green-700 hover:scale-105">
              Join Us
             </button>
